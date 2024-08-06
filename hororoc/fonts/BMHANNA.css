@@ -1,0 +1,12 @@
+
+@font-face {
+  font-family: 'BMHANNA';
+  src: url('BMHANNA.eot') format('embedded-opentype');
+  src: url('BMHANNA.eot?#iefix') format('embedded-opentype'),
+       url('BMHANNA.svg#svgFontName') format('svg'),
+       url('BMHANNA.woff') format('woff'),
+       url('BMHANNA.ttf')  format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}

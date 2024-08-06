@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>JavascriptMap</title>
+		<style type="text/css">
+			.map {
+				float: left;
+				margin: 10px;
+				border: 1px solid black;
+			}
+			.clear {
+				clear: both;
+			}
+		</style>
+		<script type="text/javascript" src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0&key=8858ff298dbc779b93471373a6d67cba"></script>
+
+		//rpkim_2011_11_23 add
+		<script type="text/javascript" src="http://apis.daum.net/maps/maps3.js?apikey=675a6ed79c9225d3646e6d6ef827f5be9001a65c"></script>
+		
+		<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="jquery-ui-1.8.16.custom.min.js"></script>
+		<script type="text/javascript" src="jquery.naver.map.js"></script>
+		<script type="text/javascript" src="jquery.ajou.mapController.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("#maps").ajouMapController({
+						url:"http://rpkim.net/ajou/maptest.json",
+						on_initialize: function(map_list) {
+						$.each(map_list, function(i) {
+							var map = map_list[i];
+							map.ajouMap({
+								map_type: "DaumMap",
+								options: {
+									width: 500, height: 500
+								}
+							});
+						});
+					}
+				});
+				$("#btn").click(function() {
+					$("#map_2").ajouMap("setBound");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<button id="btn">test</button>
+		<div id="maps"></div>
+	</body>
+</html>

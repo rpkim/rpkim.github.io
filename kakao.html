@@ -1,0 +1,39 @@
+﻿<!doctype HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>KakaoLink Demo(Web Button) - Kakao Javascript SDK</title>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+  </head>
+  <body>
+    <h3>카카오톡으로 친구한테 호로록 소개하기</h3>
+    <a id="kakao-link-btn" href="javascript:;">
+      <img src="http://dn.api1.kage.kakao.co.kr/14/dn/btqa9B90G1b/GESkkYjKCwJdYOkLvIBKZ0/o.jpg" />
+    </a>
+
+    <script>
+    // 사용할 앱의 Javascript 키를 설정해 주세요.
+    <!-- 호로록 사이트 key -->
+    Kakao.init('5f43733c65a56ce613424193fe41a4c5');
+    <!-- rpkim 사이트 key -->
+    // Kakao.init('61a80f4775fa9cc2667765b541660802');
+	
+
+    // 카카오톡 링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+    Kakao.Link.createTalkLinkButton({
+      container: '#kakao-link-btn',
+      label: '디지털 시티, 먹고 살기 프로젝트 호로록!',
+      image: {
+        src: 'http://hororoc-613210401.ap-northeast-1.elb.amazonaws.com/static/images/logo.png',
+        width: '250',
+        height: '120'
+      },
+      webButton: {
+        text: '호로록 바로가기',
+        url: 'http://hororoc.me' // 앱 설정의 웹 플랫폼에 등록한 도메인의 URL이어야 합니다.
+      }
+    });
+    </script>
+  </body>
+</html>

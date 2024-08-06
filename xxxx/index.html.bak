@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>CRYPTO</title>
+
+		<meta name="description" content="for presentation">
+		<meta name="author" content="Jay Kim, rpkim">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="img/only_bg.jpg">
+					<img src="img/title.png" />
+					<h3 style="color:#000000">Robinson Crusoe on a desert island into his feet</h3>
+					<img src="img/robinson_island.png" />
+					<h3 class="fragment" style="color:#ffffff">Speaker</h3>
+					<h3 class="fragment" style="color:#ffffff">Jay Kim</h3>
+					<aside class="notes">
+						인사 -> 세미나 주제에 대한 설명(왜 세미나 주제를 이걸로 했는지)
+					</aside>
+				</section>
+				<!-- The first voyage -->
+				<section data-background="img/only_bg.jpg">
+					<h3><strong>Story of Robinson Crusoe</strong></h3>
+					<img src="img/robinson.png" />
+					<aside class="notes">
+						로빈슨 크루소 아는지 확인
+						이야기를 간단히 소개해 드리겠다.
+						시작.						
+					</aside>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<h3>Born in middle-class family</h3>
+					<p style="margin-bottom:0">
+						<img style="margin-bottom:0" class="fragment" src="img/stable.jpg" />
+					</p>
+					<p style="margin:0">
+						<img style="margin:0" class="fragment" src="img/down_arrow.png" />
+					</p>
+					<p style="margin:0">
+						<img style="margin:0" class="fragment" src="img/trash_box.jpg" />
+					</p>
+					<aside class="notes">
+						중산층 / 아셨는지?
+						아버지 권유 -> 뿌리침
+					</aside>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<h3>Leaving home</h3>
+					<p>
+						<img class="fragment" src="img/life_is_adventure.png" />
+					</p>
+					<img src="img/ship.png" />
+					<aside class="notes">
+						첫 항해 
+						아프리카 해안 도달
+						무어인에게 붙잡힘
+					</aside>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<img src="img/slave.png" />
+					<h3>Become a slave</h3>
+					<p style="margin-top:100px">
+						<h4 style="color:#ffffff">by Moors</h4>
+						<h4 style="color:#ffffff">in Africa</h4>
+					</p>
+					<aside class="notes">
+						노예가 됨
+						후회함. 떠나온걸. 그냥 아빠말 들을걸.
+						탈출 계획 세움
+					</aside>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<img src="img/run.png" />
+					<h3>Run away</h3>
+					<aside class="notes">
+						마침내 탈출함.
+						탈출 한 후 항해 중에 착한 선장 만남
+					</aside>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<img src="img/chance.png" />
+					<h3>Get a new chance</h3>
+					<h4>captain helping him</h4>
+					<h4>farm business in Brazil</h4>
+					<aside class="notes">
+						그 선장 덕에, 새로운 기회를 잡음
+						브라질서 농사 사업 가능
+						농사 -> 사업						
+					</aside>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<img src="img/success.png" />
+					<h3>Successful the business</h3>
+					<aside class="notes">
+						승승장구
+						그러나, 결국 예전과 같은 안정적인 삶
+					</aside>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<img src="img/greed.png" />
+					<h3 style="color:#ffffff">Greed</h3>
+					<aside class="notes">
+						일확천금의 꿈
+					</aside>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<h3>New challenge</h3>
+					<img src="img/ship.png" />
+					<aside class="notes">
+						노예들을 값싸게 데리고 오기 위해 또다시 항해길에 오릅니다.
+					</aside>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<h3>New challenge</h3>
+					<h3><strong>But,</strong> ship is wrecked</h3>
+					<img src="img/broken_ship.png" />
+					<aside class="notes">
+						배가 난파.
+					</aside>
+				</section>
+
+				<section data-background="img/only_bg.jpg">
+					<img width="30%" src="img/island.png">
+					<h3>meet a desert island</h3>
+					<aside class="notes">
+						무인도 도착
+					</aside>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<h3><strong>At the beginning,</strong> everything is okay</h3>
+					<h3 class="fragment"><strong>After 15 years,</strong> discovery a cannibal tribe</h3>
+					<h3 class="fragment"><strong>After 24 years,</strong> helping Friday</h3>
+					<h3 class="fragment"><strong>After 27 years,</strong> escape the desert island</h3>					
+					<aside class="notes">
+						초반
+						난파된 배에서 여러가지 챙겨서 필요한거 만듬.
+						날씨도 좋음. 목숨을 위협하는 동물없음.
+						
+						그러다가, 15년 되던 해, 
+						식인종 존재 -> 가끔 잡은 적을 구워먹기 위해 해안을 이용
+						24년째, 희생자 하나 구출 -> 금요일 이름 지어줌 -> 드디어, 고독에서 해방
+						2년째 되는 해, 영국 배 기항
+						선장 편, 선원 반란 막고 결국 영국으로 돌아감
+					</aside>
+				</section>
+				<section>
+					<section data-background="#9dc5ea">
+						<h3><strong>Story of Robinson crusoe</strong></h3>
+						<h4>Born in middle-class family</h4>
+						<h4>Leaving home</h4>
+						<h4>Become a slave</h4>
+						<h4>Run away</h4>
+						<h4>Get a new chance</h4>
+						<h4>Successful the business</h4>
+						<h4>Greed</h4>
+						<h4>New challenge</h4>
+						<h4>But,ship is wrecked</h4>					
+						<h4>meet a desert island</h4>
+						<h4>At the beginning, everything is okay</h4>
+						<h4>After 15 years, discovery a cannibal tribe</h4>
+						<h4>After 24 years, helping Friday</h4>
+						<h4>After 27 years, escape the desert island</h4>											
+					</section>
+					<section data-background="#2279c0">
+						<h2 style="color:#ffffff"><strong>The story contains</strong></h2>
+						<br/>
+						<h3 class="fragment">Life is adventure</h3>
+						<h3 class="fragment">Creative and Research are needed</h3>
+						<h3 class="fragment">diligent and sincere are needed</h3>
+						<h3 class="fragment">Life logging</h3>
+					<aside class="notes">
+						재밌는 모험 이야기
+						안정 택하지 않고 여행
+						연구 개발
+						근면 성실
+						기록
+					</aside>
+					</section>
+					<section data-background="#07456a">
+						<h3 style="color:#ffffff"><strong>But today</strong></h3>
+						<h3 class="fragment" style="color:#ffffee">I wanna tell you about my story</h3>
+						<h3 class="fragment" style="color:#ffffee">similar with this story</h3>
+					<aside class="notes">
+						내 이야기 하려고 함
+						스펙타클함
+					</aside>
+					</section>
+				</section>
+				<!-- The second voyage -->
+				<section data-background="img/only_bg.jpg">
+					<h3><strong>Story of Jay Kim</strong></h3>
+					<img src="img/robinson.png" />
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<h3>Born in middle-class family</h3>
+					<p style="margin-bottom:0">
+						<img style="margin-bottom:0" class="fragment" src="img/stable.jpg" />
+					</p>
+					<p style="margin:0">
+						<img style="margin:0" class="fragment" src="img/down_arrow.png" />
+					</p>
+					<p style="margin:0">
+						<img style="margin:0" class="fragment" src="img/trash_box.jpg" />
+					</p>
+				</section>
+				<section>
+					<section data-background="img/only_bg.jpg">
+						<h3>Leaving home</h3>
+						<img src="img/ship.png" />
+					</section>
+					<section data-background="#5194d2">
+						<img src="img/suggest.png" />
+						<h3 class="fragment"><strong>When I was in 22 years old</strong></h3>
+						<h3 class="fragment">Suggest by Mr.Ahn</h3>
+					</section>
+					<section data-background="#5194d2">
+						<h3 style="color:#ffffff"><strong>TL Language</strong></h3>
+						<h4>ASP.NET with C#</h4>
+						<img src="http://rpkim.net/img/tl.png" />
+					</section>
+					<section data-background="#5194d2">
+						<h3>He said,</h3>
+						<h3 class="fragment">"Outsourcing"</h3>
+						<h3 class="fragment">I said,</h3>
+						<h3 class="fragment">"Let's go into business as partners."</h3>
+					</section>
+						<aside class="notes">
+						사이트를 만들어 주면 돈을 주겠다.
+						그러나, 아무리 생각해도 돈이 안될 것 같다.
+						-> 동업을 하자.
+						31살 아저씨가 약간 순간 멘붕.
+						-> 그래 좋아. 하자.
+						그 후, 노예가 됨
+						</aside>
+				</section>
+				<section>
+					<section data-background="img/only_bg.jpg">
+						<img src="img/slave.png" />
+						<h3>Become a slave</h3>
+						<p style="margin-top:100px">
+							<h4 style="color:#ffffff">by Moors</h4>
+							<h4 style="color:#ffffff">in Africa</h4>
+						</p>
+						<aside class="notes">
+						로빈슨 크루소 같음
+						</aside>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<h3>Everyday, 5 hours sleep</h3>
+						<h3>for one year</h3>
+						<h4>Zero Money</h4>
+						<aside class="notes">
+						맨날 5시간 잠, 1년. 돈 하나도 못벌음.
+						</aside>
+					</section>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<img src="img/run.png" />				
+					<h3>Run away</h3>
+					<aside class="notes">
+					결국 도망. 사업 망함
+					부모님 난리-> 건강 잃고 돈 못벌고.
+					그 당시 여자친구, 친구들 다 엄청 모라고 함.
+					서러움
+					</aside>
+				</section>
+				<section>
+					<section data-background="img/only_bg.jpg">
+						<img src="img/chance.png" />
+						<h3>Get a new chance</h3>
+						<h4>captain helping him</h4>
+						<h4>farm business in Brazil</h4>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<img src="img/search.png" />
+						<h3>Find new jobs</h3>
+						<h4>Friends helping me</h4>
+						<h4>Started a new business.</h4>
+					<aside class="notes">
+					근데, 사실 개이득.
+					저 이력 덕에 많은 일 가능함
+					한번 실패 해서 두려움 더 없음
+					해볼만함
+					</aside>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<h3>Joined communities</h3>
+						<h4>Cafe, Hoons</h4>
+						<h3>Joined seminars</h3>
+						<h4>Microsoft seminars and so on</h4>
+						<h3>search and search</h3>
+					<aside class="notes">
+					커뮤니티에도 가입하고, 세미나도 들으러 다니고, 관심있는 게 있으면 검색하고 또 검색하고 또 검색하는 일들을 반복했습니다.
+					</aside>
+					</section>
+				</section>
+					<section data-background="img/only_bg.jpg">
+						<img src="img/success.png" />
+						<h3>Successful the business</h3>
+					</section>					
+				<section>
+					<section data-background="img/only_bg.jpg">
+						<h3><strong>Newintmedia</strong></h3>
+						<h4>The company based on Graphic Design</h4>
+					<aside class="notes">
+					캬, 이때부터 인생이 피기 시작
+					</aside>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<h3>Design + Technology</h3>
+						<aside class="notes">
+						</aside>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<img src="http://rpkim.net/img/ces2010.png" />
+						<h3>CES2010 in Las Vegas</h3>
+						<h4>Multi-touch table</h4>
+						<aside class="notes">
+						이 회사가 주로 하는 일이, 해외 전시에 사용되는 컨텐츠를 납품하는 일인데,
+						덕분에 라스베가스도 공짜로 가고
+						</aside>
+						</section>
+					<section data-background="img/only_bg.jpg">
+						<img src="http://rpkim.net/img/mwc2010_2.png" />
+						<h3>MWC2010 in Barcelona</h3>
+						<h4>Multi-touch wall</h4>
+						<aside class="notes">
+						바르셀로나도 공짜로 가고
+						</aside>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<img src="http://rpkim.net/img/mwc2010_1.png" />
+						<h3>MWC2010 in Barcelona</h3>
+						<h4>Multi-touch table</h4>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<img src="http://rpkim.net/img/ces2011_2.png" />
+						<h3>CES2011 in Las Vegas</h3>
+						<h4>Multi-touch table</h4>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<img src="http://rpkim.net/img/ces2011_1.png" />
+						<h3>CES2011 in Las Vegas</h3>
+						<h4>Multi-touch table</h4>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<iframe width="560" height="315" src="//www.youtube.com/embed/Zs0kQLzz0Gk" 
+						frameborder="0" allowfullscreen></iframe>
+						<h3>CTIA2011 in Orlando</h3>
+						<h4>Multi-touch table</h4>
+						<aside class="notes">
+						돈 많이 벌음.
+						그간 좀 지루했을 수도 있으니, 한번 결과물을 하나 보고 넘어가겠습니다.
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section data-background="img/only_bg.jpg">
+						<h3><strong>Samsung Software Membership</strong></h3>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<h3>Hardware + Software</h3>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<iframe width="560" height="315" src="//www.youtube.com/embed/Yzq8PtCnD9c" 
+						frameborder="0" allowfullscreen></iframe>
+						<h3>HCI Interface with Pico-projector</h3>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<iframe width="560" height="315" src="//www.youtube.com/embed/SVurJZFcIKg" 
+						frameborder="0" allowfullscreen></iframe>
+						<h3>Creature</h3>
+						<h4>Interactive Mirror</h4>
+					</section>
+				</section>
+				<section>
+					<section data-background="img/only_bg.jpg">
+						<h3><strong>Mobius</strong></h3>
+						<h4>Media Art Lab</h4>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<img src="http://rpkim.net/img/vita.png" />
+						<h3>Vita-mingle Groove</h3>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<iframe width="560" height="315" src="//www.youtube.com/embed/ftgMcZuIXiM" 
+						frameborder="0" allowfullscreen></iframe>
+					</section>
+				</section>
+				<section>
+					<section data-background="img/only_bg.jpg">
+						<h3><strong>KETI</strong></h3>
+						<h4>research assistant</h4>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<h3>collaboration</h3>
+						<h4>iKaist</h4>
+					</section>
+				</section>
+				<section>
+					<section data-background="img/only_bg.jpg">
+						<img src="img/greed.png" />
+						<h3>Greed</h3>
+						<aside class="notes">
+						음, 그러나 더 큰 야망
+						</aside>
+					
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<h3>Own company</h3>
+						<aside class="notes">
+						내 회사. 캬. 얼마나 아름답습니까. 내 회사
+						</aside>
+					</section>				
+				</section>
+				<section>
+					<section data-background="img/only_bg.jpg">
+						<h3>New challenge</h3>
+						<img src="img/ship.png" />						
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<h3><strong>CBB</strong></h3>
+						<h4>Creative Business Bus</h4>
+						<aside class="notes">
+						여러가지 일도 받아오고 외부 일이 아닌 내부에서 서비스 기획을 통해 서비스도 만들어내고
+						</aside>					
+					</section>
+				</section>
+				<section data-background="img/only_bg.jpg">
+					<h3>New challenge</h3>
+					<h3><strong>But,</strong> ship is wrecked</h3>
+					<img src="img/broken_ship.png" />
+					<aside class="notes">
+					나쁘진 않지만, 결과적으로 제 꿈은 좌절
+					</aside>
+				</section>
+				<section>
+					<section data-background="img/only_bg.jpg">
+						<img width="30%" src="img/island.png">
+						<h3>meet a desert island</h3>
+					</section>
+					<aside class="notes">
+					그리곤, 원래의 꿈을 접고 무인도로 가게 됩니다.
+					</aside>
+					<section data-background="img/only_bg.jpg">
+						<img width="30%" src="http://img4.wikia.nocookie.net/__cb20101213172911/conworld/images/thumb/c/c3/698px-Samsung_Logo.svg.png/639px-698px-Samsung_Logo.svg.png">
+						<h3>Samsung Electronics</h3>
+						<h4>join a company</h4>
+						<aside class="notes">
+						바로 샘성, 결국은 이곳에 들어가게 됩니다.
+						</aside>
+					</section>					
+				</section>
+				<section>				
+					<section data-background="img/only_bg.jpg">
+						<h3><strong>At the beginning,</strong> everything is okay</h3>
+						<h3><strong>After 15 years,</strong> discovery a cannibal tribe</h3>
+						<h3><strong>After 24 years,</strong> helping Friday</h3>
+						<h3><strong>After 27 years,</strong> escape the desert island</h3>					
+						<aside class="notes">
+						로빈슨 크루소의 이야기를 빗대어 이야기 하자면,
+						</aside>
+					</section>
+					
+					<section data-background="img/only_bg.jpg">
+						<h3><strong>At the beginning,</strong> everything is okay</h3>
+						<h3 class="fragment">Environment is so perfect</h3>
+						<h3 class="fragment">Kindly co-workers</h3>
+						<h3 class="fragment">salary is so good</h3>
+						<aside class="notes">
+						초반엔 엄청 좋았습니다.
+						굉장히 이렇게 좋은 회사가 없습니다.
+						업무 환경도 좋고, 친절한 사람들에, 돈도 꽤 짭짤하고. 좋습니다.
+						</aside>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<h3><strong>After 15 years,</strong> discovery a cannibal</h3>
+						<h3 class="fragment">politics</h3>
+						<h3 class="fragment">boss</h3>
+						<h3 class="fragment">reorganization</h3>
+						<aside class="notes">
+						그러나, 다양한 것들.
+						안에서 정치. 다들 미생 보시죠?
+						혹은, 원치 않는 상사.
+						그리고 조직개편.			
+						</aside>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<h3><strong>After 24 years,</strong> helping Friday</h3>
+						<h3 class="fragment"><strong>Challenge in the company</strong></h3>															<h4 class="fragment">Work Smart</h4>				
+						<h4 class="fragment">Enjoy vacation</h4>
+						<h4 class="fragment">Python Server-side for the first time</h4>						
+						<a href="http://hororoc.me"><h4 class="fragment">Hororoc</h4></a>
+						<aside class="notes">
+							로빈슨 크루소가 고독을 탈출했듯이, 저에게 Friday 가 존재한다면,
+							어떻게 보면, 이러한 안정적이고 고독적인 것을 탈출할 계기를 찾았습니다.
+							회사 안에서 바로 도전하는 건데요.
+							워크 스마트. 캬. 40시간 한달. 자율출퇴근.
+							눈치 안보고 떠나는 휴가.
+							새로운 기술의 도입.
+							회사 안에서의 기회 찾기. -> Hororoc
+						</aside>
+					</section>
+					<section data-background="img/only_bg.jpg">
+						<h3><strong>After 27 years,</strong> escape the desert island</h3>			
+						<aside class="notes">
+							물론, 로빈슨 처럼, 아직은 무인도를 벗어나진 못했습니다.
+							현재 이제 벗어나기 위해(회사를 그만둔다는게 아님).
+							노력하고 있습니다.
+						</aside>
+					</section>
+				</section>
+				<section data-background="#2279c0">
+					<h2 style="color:#ffffff"><strong>The story contains</strong></h2>
+						<aside class="notes">
+						캬캬
+						</aside>
+				</section>
+
+				<section data-background="#9dc5ea">
+					<h2><strong>Well begun is half done</strong></h2>
+					<h3 class="fragment">Whatever</h3>
+					<h3 class="fragment">right now</h3>
+						<aside class="notes">
+						시작, 언제든. 지금 당장.
+						실패하든 뭐든, 한번 시작해보니까, 그 이후로 인생이 풀렸습니다.	
+									
+						</aside>
+				</section>
+
+				<section data-background="#9dc5ea">
+					<h2><strong>Don't be afraid</strong></h2>
+					<h3 class="fragment">I had nothing to lose</h3>
+					<h3 class="fragment">Challenge, it's flavor of the month</h3>
+						<aside class="notes">
+						어렵게 생각하지 마셈	
+						두려워 할 필요가 없죠.
+						잃은게 없으니까.
+						그리고 요즘은 도전의 시대.
+						</aside>
+				</section>
+				<section>
+					<section data-background="#9dc5ea">
+						<h2><strong>Go on your way</strong></h2>
+						<h3 class="fragment">Don't mind the others and live out your convictions.</h3>
+						<aside class="notes">
+						남 눈치 보지 말고 그냥 하고 싶은대로 하기.
+						그래야 행복해지고, 배울 수 있는 것 같습니다.
+						</aside>
+					</section>
+					<section data-background="#9dc5ea">
+						<h2>In my case,</h2>
+						<h2 class="fragment"><strong>Spec</strong></h2>
+						<h3 class="fragment">is not important</h3>
+					</section>
+					<section data-background="#9dc5ea">
+						<img src="img/balance.png" />
+						<h2>Balance</h2>
+						<h3 class="fragment">Programming & Design</h3>
+						<h3 class="fragment">Planning & Marketing</h3>
+						<h3 class="fragment">Fashion & Life</h3>
+					</section>				
+				</section>
+				<section>
+					<section data-background="#9dc5ea">
+						<h2><strong>Keep a record of your experience</strong></h2>
+						<h3 class="fragment">Robinson keep a record his days</h3>
+						<h3 class="fragment">Make your website</h3>
+						<h3 class="fragment">Make your own business card</h3>
+						<aside class="notes">
+							기록하기.
+						</aside>
+					</section>
+					<section data-background="#9dc5ea">
+						<a href="http://www.rpkim.net"><h2><strong>rpkim.net</strong></h2></a>						
+					</section>					
+				</section>				
+				<section data-background="#07456a">
+					<h2 style="color:#ffffff"><strong>Thank you</strong></h2>
+					<p>
+						<h3 class="fragment" style="color:#ffffee">by Jay Kim</h3>
+						<h3 class="fragment" style="color:#ffffee">with reveal.js</h3>
+						<h3 class="fragment" style="color:#ffffee">rpkim.net</h3>
+					</p>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					// Remote control your reveal.js presentation using a touch device
+        { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } },
+
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

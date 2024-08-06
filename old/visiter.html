@@ -1,0 +1,15 @@
+<? include "dbconn.php"; ?>
+<?
+$sql = "SELECT * FROM `visiter`";
+$result = mysql_query($sql) or die ("잘못된 질의");
+$tot=mysql_num_rows($result);	//행의 갯수
+
+echo "<table>";
+while($list=mysql_fetch_array($result)){
+echo " <tr>";
+echo "<td>".$list[0]."</td>";
+echo "<td>".$list[1]."</td>";
+echo "</tr>";
+}
+echo "</table>";
+?>

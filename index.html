@@ -1,1 +1,127 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>r o man tic programmer kim</title>
+	
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="rpkim" />
+	<meta property="og:description" content="rpkim, programmer, seoul" />
+	<meta property="og:url" content="http://rpkim.net" />
+	<meta property="og:site_name" content="rpkim" />
+	<meta property="og:locale" content="ko_KR" />
+	<meta name="author" content="jay kim">
+	<meta name="description" content="programmer jay kim's portfolio site" />
+	<meta name="keywords" content="rpkim, jay kim, programmer" />
+	<meta name="copyright" content="2016 by rpkim All Rights Reserved."/>
+	<meta name="email" content="rpkim.jay@gmail.com"/>
+	<meta name="naver-site-verification" content="8b63bc4bdbbb218964121ed0d65e5c38544a83ef"/>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/basic.css" rel="stylesheet">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <div class="container">
+  <div class="page-header">
+      <div class="clearfix">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <h1>RPKIM <small>(Jay Kim, Seoul)</small></h1>
+                <h2> romantic programmer kim</h2>
+            </div>	
+            <div class="col-md-6 col-sm-6 col-xs-12">
+	     <ol class="breadcrumb">
+                    <li class="active">ABOUT</li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="works.html">W</a></li>
+                    <li><a href="blog.html">B</a></li>
+                    <li><a href="inspiration.html">I</a></li>
+                    <li><a href="draw.html">D</a></li>
+                    <li><a href="travels.html">T</a></li>
+                    <li><a href="contact.html">C</a></li>  	
+                     <li><a href="music.html">M</a></li>
+                     <li><a href="place.html">P</a></li>  	
+        </ol>
+            </div>
+        </div>
+  </div>
+      <div class="clearfix">
+      	<div class="container">      	
+      		<div class="row">
+  		  		<div class="col-lg-12 col-md-12">
+    		  		<p>
+    		  		<h2>
+    		  			At the intersection of design, business and technology,<br><br>
+    		  					  		
+    		  			The romantic programmer Jay Kim,<br>
+    		  			with his free spirit and flexible mind,<br>
+    		  			strives to become an artist or revolutionary.<br><br>
+
+    		  			Thoughtful and insightful by nature,<br>
+    		  			he studies media, service, technology, art, design, data, fashion and people<br>
+    		  			to discover and create innovation.<br><br>
+    		  			
+    		  			He has good instincts via diverse experiences for understanding valuable of things.<br><br>
+    		  			<!-- he want to strike a balance between technology, design, business.<br><br>-->
+
+    		  			He finds the greatest meaning of life from his lovely wife,<br>
+    		  			and, in his persistent pursuit of happiness,<br>
+    		  			journeys through every single moment of his life.<br>
+		   		  		</h2>
+    		  		</p>
+                    <br/><br/><br/><br/>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hmX31JkNV8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </p>
+  		  		</div> 
+		  	 </div>    	
+      	</div>
+      </div>
+  </div>
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  </body>
+<script>
+function iOS() {
+  var iDevices = [
+    'iPad Simulator',
+    'iPhone Simulator',
+    'iPod Simulator',
+    'iPad',
+    'iPhone',
+    'iPod'
+  ];
+  if (!!navigator.platform) {
+    while (iDevices.length) {
+      if (navigator.platform === iDevices.pop()){ return true; }
+    }
+  }
+  return false;
+}
+function sendMessage() {
+       if(iOS()){
+           try {
+               webkit.messageHandlers.loginAction.postMessage(
+                   "userid"
+                   //document.getElementById("email").value
+               );
+           } catch(err) {
+               console.log('The native context does not exist yet');
+           }
+       }
+}
+sendMessage();
+</script>
+</html>

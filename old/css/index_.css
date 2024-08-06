@@ -1,0 +1,97 @@
+﻿body{
+    margin:0;
+	padding:0;
+	text-align:center;
+}
+p{
+	text-align:justify;
+}
+pre{
+	text-align:left;
+}
+img{
+	border:0;
+}
+
+#wrapper{
+	width:720px;
+	position: relative;
+	left:50%;
+	margin-left:-360px;
+	border:0px solid #000;
+}
+
+
+div#container{
+	margin-bottom:150;
+	font-family:굴림,돋음;
+	font-size:12px;
+
+}
+
+div#left{
+	width:90px;
+	float:left;
+}
+div#title{
+float:right;
+margin-bottom: 20;
+}
+
+div#profile{
+float:right;
+margin-bottom: 10;
+}
+div#facebook{
+	float:right;
+	margin-bottom: 10;
+}
+div#contact{
+	float:right;
+}
+div#center{
+	margin-top:28;
+	width:844;
+}
+div#right{
+	width:90;
+	float:right;
+}
+div#whoami{
+	text-align:justify;
+}
+div#workmenu{
+	float:right;
+	margin-right:10;
+}
+a:hover { 
+ color:#fff;  
+    border:1px solid #f40;  
+    background-color:#f40;  
+}
+a {
+text-decoration:none;
+	color:#000;
+	font:bold 15px tahoma;
+border:1px solid #eee; 
+}
+
+div#workmenu1{
+	float:right;
+	margin-right:10;
+	font-family:굴림,돋음;
+	font-size:12px;
+}
+div#movie{
+	margin-bottom:10;
+	float:left;
+	text-align:left;
+}
+div#facebook{
+    font-size:8px;
+	float:right;
+}
+div#profile{
+    font-size:8px;
+	float:right;
+}

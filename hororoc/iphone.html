@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>HOROROC | DIGITAL CITY CAFETERIA GUIDE</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="mobile/css/hororoc-web-font.css">
+		<link rel="stylesheet" href="mobile/css/hororoc-web-default.css">
+
+		<script src="mobile/js/jquery-2.1.3.min.js"></script>
+		<link rel="stylesheet" href="mobile/css/animate.css">
+		<style>
+		body{
+			background-color: #dddddd;
+		}
+		#logo {
+			max-width:100px;
+			width:20%;
+			display:block;
+			position:absolute;
+			left:40%;
+			top:39%;
+		}
+		#logo {
+  			-webkit-animation-duration: 2s;
+  			-webkit-animation-delay: 0.5s;
+		}
+		</style>
+		<script>
+		$(document).ready(function(){
+				$('#logo').addClass('animated bounceInDown');
+				$('#logo').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function (){
+					$('#logo').removeClass('animated bounceInDown');
+					$('#logo').addClass('animated bounceOutRight');
+					$('#logo').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function (){
+						$(location).attr('href','imain.html');
+					});
+				});
+		});
+		</script>
+	</head>
+	<body>
+		<div>
+			<img id="logo" class="center" src="mobile/img/main_icon.png">
+		</div>
+		<!--
+		<div class="container">
+			<button type="button">페이스북으로 시작하기</button>
+			<button type="button">카카오톡으로 시작하기</button>
+		</div>
+		-->
+	</body>
+</html>

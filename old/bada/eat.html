@@ -1,0 +1,16 @@
+<?
+  header ('Content-Type: text/xml; charset=utf-8'); 
+  echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>";
+?><result><?
+//if don't have search value.
+if ($_GET['xPos'] == '')
+{
+    die('need xPos value, be careful P, not p');
+}
+if ($_GET['yPos'] == '')
+{
+    die('need yPos value, be careful P, not p');
+}
+?>
+<? include "eat_1.php"; ?>
+</result>

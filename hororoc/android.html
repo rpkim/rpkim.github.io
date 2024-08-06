@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>HOROROC | DIGITAL CITY CAFETERIA GUIDE</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="mobile/css/hororoc-web-font.css">
+		<link rel="stylesheet" href="mobile/css/hororoc-web-default.css">
+		<script src="js/kakao.min.js"></script>
+
+		<style>
+		body{
+			background-color: #b20a22;
+		}
+		#logo {
+			max-width:100px;
+			width:20%;
+			display:block;
+			position:absolute;
+			left:40%;
+			top:39%;
+		}
+		</style>
+	</head>
+	<body>
+		<div>
+			<img id="logo" class="center" src="mobile/img/main_icon_a.png">
+		</div>
+		<div class="container">
+			<a href="https://play.google.com/store/apps/details?id=com.sec.hororoc"><button type="button">호로록 다운로드</button></a>
+			<a id="kakao-link-btn" href="javascript:;"><button type="button">카톡으로 공유하기</button></a>
+		</div>
+
+	<!---- container ---->
+		<script>
+			Kakao.init('5f43733c65a56ce613424193fe41a4c5');
+			Kakao.Link.createTalkLinkButton({
+			container: '#kakao-link-btn',
+			label: '디지털 시티, 먹고 살기 프로젝트 호로록!',
+			image: {
+			src: 'http://rpkim.net/hororoc/images/logo.png',
+			width: '250',
+			height: '120'
+			},
+			webButton: {
+			text: '호로록 바로가기',
+			url: 'https://play.google.com/store/apps/details?id=com.sec.hororoc' // 앱 설정의 웹 플랫폼에 등록한 도메인의 URL이어야 합니다.
+			}
+			});
+		</script>
+	</body>
+
+</html>

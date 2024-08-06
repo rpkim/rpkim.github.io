@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> LANGUAGE API </TITLE>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr"/>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>    
+<script type="text/javascript">    
+google.load("language", "1");   
+
+function gTranslate() {
+ var text = word.value;     
+ google.language.detect(text, function(result) {
+  if (!result.error && result.language) {          
+   google.language.translate(text, result.language, "en",                                    
+   function(result) {          
+           if (result.translation) {              
+     document.getElementById('result').innerHTML = result.translation;
+    }          
+   });        
+  }      
+ });
+}  
+
+</script>
+</HEAD>
+<BODY>
+<input type='text' name='word' size='20' onkeydown="javascript:if(event.keyCode == 13){gTranslate();}" value="">
+<input type='button' value='확인' onclick='gTranslate();'>
+<br /><br />
+<div id='result'>번역 결과가 나타납니다.</div>
+</BODY>
+</HTML>

@@ -1,0 +1,29 @@
+<?
+  header ('Content-Type: text/xml; charset=utf-8'); 
+  echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>";
+?><result><?
+//if don't have search value.
+if ($_GET['search'] == '')
+{
+    die('need search value');
+}
+?><?
+if ($_GET['shop'] == '')
+{
+ include $_SERVER['DOCUMENT_ROOT']."/bada/en/main/ebay.php";
+ include "shop_1.php";
+ include "shop_2.php";
+}
+if ($_GET['shop'] == 'ebay')
+{
+ include $_SERVER['DOCUMENT_ROOT']."/bada/en/main/ebay.php";
+}
+if($_GET['shop'] == 'Daum')
+{
+ include "shop_1.php";
+}
+else if($_GET['shop'] == 'Naver')
+{
+ include "shop_2.php";
+}
+?></result>

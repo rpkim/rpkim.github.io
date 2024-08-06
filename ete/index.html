@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ÉTÉ MAISON : SUMMER HOUSE</title>
+		
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    	<!--[if lt IE 9]>
+      	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+		<style>
+			.nav>li a:hover{
+				background-color: rgb(255,255,255);
+				color: rgb(0,86,184);
+			}
+			.top-line {
+				width:100%;
+				position: relative;
+				background-color:rgb(0,86,184);
+				margin-bottom:20px;
+				padding:0;
+				height: 30px;
+			}
+			.vertical-center {
+				min-height: 400px;
+				max-height: 600px;
+				display: flex;
+				align-items: center;
+			}
+			.brand {
+				position: absolute;
+				left: 50%;
+				margin-left: -75px !important;  /* 50% of your logo width */
+				display: block;
+				
+			}
+			.sub-brand{
+				position: absolute;
+				left: 50%;
+				margin-left: -150px !important;
+				display: block;
+			}
+			.nav-small{
+				display: inline-block;
+				vertical-align: top;
+			}
+			.top-margin{
+				margin-top:180px;
+			}
+			.bottom-margin{
+				margin-bottom:180px;
+			}
+			.navbar-nav1{
+				display: inline-block;
+				text-align: center;
+			}
+			.navbar-nav1>li {
+				float: left;
+			}
+			.navbar-nav{
+				display: inline-block;
+				vertical-align: top;
+				text-align: center;
+			}
+			.navbar .navbar-collapse {
+				text-align: center;
+			}
+			.navbar .navbar-nav {
+				display: inline-block;
+			}
+			
+			.navbar .navbar-collapse {
+				text-align: center;
+			}
+			
+			a{
+				color:black;
+			}
+			.main-menu{
+				padding-top:20px;
+				font-size:18px;
+				padding-left: 0;
+			}
+			.main-img{
+				min-height: 400px;
+				max-height: 600px;
+				background-image: url(img/main.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+			.white-font{
+				color:white;
+			}
+			.center-font{
+				text-align: center;			
+			}
+			.jumbotron{
+				background: none;
+				color:white;
+			}
+			.notice{
+				padding-top:5px;
+				padding-bottom:5px;
+				background: #fafafa;
+				border-bottom: solid 1.8px #808080;
+			}
+			
+			.sub-title{
+				letter-spacing: 5px;
+				margin-left:0;
+				margin-top:30px;
+				text-decoration: underline;
+				text-align: center;
+			}
+			.hojum-1{
+				min-height: 400px;
+				max-height: 400px;
+				background-image: url(img/hojum.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+			.hojum-2{
+				min-height: 400px;
+				max-height: 400px;
+				background-image: url(img/hojum1.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+			.img-center-text{
+				padding-top:35%;
+			}
+			.empty{
+				padding:30px;
+			}
+			.highlight{
+				color:rgb(0,86,184);
+			}
+			.sub-margin{
+				padding-top:50px;
+			}
+			.navbar .navbar-nav {
+				display: inline-block;
+			}
+			.navbar .navbar-collapse {
+				text-align: center;
+			}
+			.navbar-nav>li>a{
+				padding-top:5;
+			}
+			ul {
+					width:100%;
+					text-align:center;
+			}		
+			.small-li {
+					display:inline-block;
+					*display:inline; /*IE7*/
+					*zoom:1; /*IE7*/
+					color:white;
+					margin-left:40px;
+					margin-right:40px;
+					margin-top:20px;
+			}
+			.menu-item{
+				display:inline-block;
+				*display:inline; /*IE7*/
+				*zoom:1; /*IE7*/
+				margin-left:40px;
+				margin-right:40px;
+				margin-top:5px;
+			}
+			.menu-item a{
+				color:rgb(0,86,184);
+			}
+			.jumbotron{
+				margin-bottom:0;
+			}
+			@media screen and (max-width: 600px) {
+                .menu-item{
+					margin-left: 0;
+    				margin-right: 10px;
+				}
+            }
+
+
+    </style>
+   
+	</head>
+	<body>
+		<nav class="navbar navbar-fixed-top">
+				<div class="top-line">
+					<div id="navbar">
+					  <ul>
+					    <li class="active menu-item"><a href="#about">ABOUT</a></li>
+					    <li class="menu-item"><a href="#product">PRODUCT</a></li>
+					    <li class="menu-item"><a href="#faqs">FAQS</a></li>
+					    <li class="menu-item"><a href="#contact">CONTACT</a></li>
+					  </ul>
+					</div><!--/.nav-collapse -->
+				</div>
+		</nav>
+		<div class="sub-margin"></div>
+
+
+
+		<div class="container">
+			<div class="bottom-margin navbar-toggle" data-toggle="collapse" ></div>
+			<a class="brand">
+				<img src="img/logo.png" width="150px" />
+			</a>
+			<div class="collapse navbar-collapse">
+				<div class="top-margin"></div>
+				<ul id="simple-menu" class="main-menu">
+					<li class="small-li"><a href="#about">ABOUT</a></li>
+					<li class="small-li"><a href="#product">PRODUCT</a></li>
+					<li class="small-li"><a href="#faqs">FAQS</a></li>
+					<li class="small-li"><a href="#contact">CONTACT</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+
+		    <div class="section section-block">
+		    	<div class="col-lg-12 col-md-12 col-sm-12 main-img">
+			    	<div class="jumbotron vertical-center">
+			    		<div class="container">
+							<h1 class="white-font center-font">ÉTÉ MAISON</h3>
+							<h1 class="white-font center-font">SUMMER HOUSE</h3>
+			    		<br />
+			    		<img class="sub-brand" src="img/sub-main.png" width="300px" />
+			    		<br />
+			    		<br />
+			    		<br />
+			    		
+						<h4 class="white-font center-font">FRESH MACARON ICECREAM</h4>
+			    		</div>
+		    		</div>
+				</div>
+		    	<div class="col-lg-12 col-md-12 col-sm-12 notice">
+					<h3 class="center-font">No additives & preservatives.</h3>
+					<h3 class="center-font">Straight to your door.</h3>
+		    	</div>
+		    </div>
+		    <div class="container"></div>
+		    <br/><br/><br/>
+		    <div class="container">
+		    	<div class="row" id="about">
+		    		<div class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-lg-6 col-md-6 col-sm-6">
+			    		<div class="page-header">
+						    		<h2>THE ÉTÉ HOUSE</h2>
+						</div>
+		    		</div>
+		    	</div> <!-- row -->
+		    	<div class="row">
+		    		<div class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-lg-6 col-md-6 col-sm-6">
+						<h5 class="introduce">
+										Founded in 2016, by two dessert connoisseurs.<br/>
+										été has been expanding strongly since 2016 on
+										the international scene with several boutiques
+										up coming in Europe, Asia and Middle East.
+										The first été maison opened in Washington D.C
+										 in 2016. Success was immediate in Paris, Seoul,
+										and Los Angeles alike. Every day, enthusiastic
+										gourmets discovered ete macaron ice cream
+										while dessert connoisseurs from around the
+										world locked to these houses of sweet delight.<br/>
+						</h5>
+						<b><a class="highlight" href="http://www.rpkim.net/ete/file/ete.pdf">brochure download</a></b></div>
+		    		</div>
+		    	</div>	<!-- row -->
+		    	<div class="row">
+		    		<div class="empty"></div>
+				</div>
+			</div>
+			<div class="container">
+		    	<div class="row" id="product">
+		    		<div class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-lg-6 col-md-6 col-sm-6">
+			    		<div class="page-header">
+						    		<h2>OUR PRODUCES</h2>
+						</div>
+					</div>
+		    	</div> <!-- row -->
+		    	<div class="row">
+		    		<div class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-lg-6 col-md-6 col-sm-6">
+					    	<h5 class="introduce">
+									été Ice cream is one of the best products we 
+									produce that highlights ete’s commitment to 
+									simple artisan food products from our community 
+									of family farmers. Made with a high-fat base 
+									of cream and milk from our grass fed cows and 
+									simple ingredients this ice cream will delight
+									all of your senses! As with all of our products
+									we add no color to the ice cream. We stick with
+									simple ingredients and are creating flavors that
+									blend traditional old-fashion flavors with newest
+									creative twists.<br/>
+									<br/>
+									<div class="highlight"><b>Highlights:</b></div>
+									<br/>
+									- Made with Organic milk from grass fed cows<br/>
+									- Non-GMO Project Verified<br/>
+									- Super Premium, high-fat ice cream<br/>
+									- No Carrageenan<br/>
+									- No artificial flavors or added colors<br/>
+									- We offer a blend of traditional and creative flavors<br/>
+							</h5>
+		    		</div>
+		    	</div> <!-- row -->
+		    	<div class="empty"></div>
+				</div>
+				<div class="container">
+
+					<div class="row" id="faqs">
+						<div class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-lg-6 col-md-6 col-sm-6">
+							<div class="page-header">
+										<h2>FAQS</h2>
+							</div>
+						</div>
+					</div> <!-- row -->
+					<div class="row">
+						<div class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-lg-6 col-md-6 col-sm-6">
+								<h5 class="introduce">
+										<div class="highlight"><b>Do you have a question concerning your order ?</b></div><br/>
+										<br/>
+										We strive to process and deliver our products as quickly as possible.
+										For this reason, we are unable to edit or cancel orders once it has been									placed. If you have questions regarding returning
+										your order once it has beern delivered, please
+										refer to our Returns Policy or contact customer service
+										at +1 202 898 1313, Monday Friday, 9 am to 5 pm EST.
+										<br/>
+										<br/>
+										<br/>
+										<div class="highlight"><b>Do you ship internationally?</b></div><br/>
+										<br/>
+										Unfortunately, no. We hope to in the future!
+								</h5>
+						</div>
+					</div>		    	
+					<div class="empty"></div>
+				</div>
+				<div class="container">
+
+					<div class="row" id="contact">
+						<div class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-lg-6 col-md-6 col-sm-6">
+							<div class="page-header">
+										<h2>CONTACT US</h2>
+							</div>
+						</div>
+					</div> <!-- row -->
+					<div class="row">
+						<div class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-lg-6 col-md-6 col-sm-6">
+								<h5 class="text-center">
+										etemacaron@gmail.com<br/>
+										Tel: 202-898-1313<br/><br/>
+										
+										<img src="img/contact.jpg" width="350px" />
+										
+								</h5>
+						</div>
+					</div>		    	
+				</div>
+			
+
+		
+		<!-- end main script -->
+				<div class="sub-margin"></div>
+		<div class="sub-margin"></div>
+		<div class="sub-margin"></div>
+
+		<div class="footer">
+			© 2017 by été International Inc.
+			<div style="float:right">
+				<a href="http://www.facebook.com/etemaison"><img src="img/facebook.png" /></a>
+				<a href="http://www.twitter.com/etemaison"><img src="img/twitter.png" /></a>
+				<a href="http://www.instagram.com/etemaison"><img src="img/insta.png" /></a>
+				
+				
+			</div>
+		</div>
+	
+	
+	
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>
+		 <!-- Your code -->
+		 <script>
+			$(window).scroll(function() {
+			  if( $(this).scrollTop() == 0 ) {
+				  $('.menu-item a').css({"color":"rgb(0,86,184)"});
+			  } else {
+				  $('.menu-item a').css({"color":'white'});
+			  }
+		});
+    </script>
+	</body>
+</html>

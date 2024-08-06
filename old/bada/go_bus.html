@@ -1,0 +1,35 @@
+<?
+  header ('Content-Type: text/xml; charset=utf-8'); 
+  echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>";
+?><result><?
+//if don't have search value.
+if( $_GET['test'] != 1)
+{
+	if ($_GET['xPos'] == '')
+	{
+   	 die('need xPos value, be careful P, not p');
+	}
+	else if ($_GET['yPos'] == '')
+	{
+    	die('need yPos value, be careful P, not p');
+	}
+	else if ($_GET['xPos1'] == '')
+	{
+    	die('need xPos1 value, be careful P, not p');
+	}
+	else if ($_GET['yPos1'] == '')
+	{
+    	die('need yPos1 value, be careful P, not p');
+	}
+	else if ($_GET['from'] == '')
+	{
+		die('need from value');
+	}
+	else if ($_GET['to'] == '')
+	{
+		die('need to value');
+	}
+}	
+?>
+<? include "go_bus.php"; ?>
+</result>

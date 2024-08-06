@@ -1,0 +1,7 @@
+<?php
+require("class.xml.phtml");
+require("class.mysql_xml.phtml");
+
+$conv = new mysql2xml;
+$conv->convertToXML("Select * From users", "users.xml");
+?>

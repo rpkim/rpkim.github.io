@@ -1,0 +1,169 @@
+
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko"  xml:lang="ko">
+<meta http-equiv="Content-Type" Content="text/html; charset=utf-8" />
+	<head>
+		<title>HOROROC | DIGITAL CITY CAFETERIA GUIDE</title>
+
+		<link href="css/bootstrap.css" rel='stylesheet' />
+		<link href="fonts/BMHANNA.css" rel='stylesheet' />
+        <link href="css/style.css" rel='stylesheet' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+		<script src="js/jquery.min.js"></script>
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<script src="js/move-top.js"></script>
+		<script src="js/easing.js"></script>
+		<script src="js/kakao.min.js"></script>
+		<script>
+		var isMobile = {
+	        Android: function() {
+	            return navigator.userAgent.match(/Android/i);
+	        },
+	        BlackBerry: function() {
+	            return navigator.userAgent.match(/BlackBerry/i);
+	        },
+	        iOS: function() {
+	            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+	        },
+	        Opera: function() {
+	            return navigator.userAgent.match(/Opera Mini/i);
+	        },
+	        Windows: function() {
+	            return navigator.userAgent.match(/IEMobile/i);
+	        },
+	        any: function() {
+	            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+	        }
+	    };
+		if ( isMobile.Android() ) {
+		        //document.location.href = "android.html";
+		}
+		else if(isMobile.iOS())
+		{
+				//document.location.href="iphone.html";
+		}
+		</script>
+		<script>
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<div class="col-md-5 header-left">
+						<div class="sreen-gallery-cursual">
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true
+							      });
+							    });
+							    </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+			
+<div>
+<p>
+접속안되시는 분들은<br/>
+
+<b style="color:red">반드시 기존앱을 지우시고</b>
+ 구글플레이스토어에서 호로록 검색 후 새로 다운 받아주세요.<br/>
+<br/>
+기존 앱은 더이상 동작하지 않습니다.<br />
+
+</p>
+
+
+</div>
+			       <div id="owl-demo" class="owl-carousel">
+					                <div class="item">
+					                	<img src="images/divice.png" title="name" />
+					                </div>
+
+					                <div class="item">
+					                	<img src="images/divice1.png" title="name" />
+					                </div>
+					                <div class="item">
+					                	<img src="images/divice2.png" title="name" />
+					                </div>
+				              </div>
+				</div>
+				</div>
+				<div class="col-md-7 header-right">
+					<a href="#"><img src="images/logo.png" title="value" /></a>
+					<p>디지털 시티 먹고 살기 프로젝트!<br/>
+						잘먹고 잘살자!</p>
+
+				<!--	<ul class="big-btns">
+						<li><a class="btn-g" href="https://play.google.com/store/apps/details?id=com.sec.hororoc">Download</a></li>
+					</ul>
+					<br />
+					<a id="kakao-link-btn" href="javascript:;">
+						<img style="width:30px; height: 30px" src="images/kakao.png" />
+						친구한테 공유하기
+					</a> -->
+
+				</div>
+			</div>
+			</div>
+			<div class="top-grids">
+				<div class="container">
+					<div class="top-grids-head text-center">
+						<h3>디지털시티 식당을 책임지는 호로록!</h3>
+						<p>매일 매일 디지털시티의 식당정보를 한눈에 확인하세요!</p>
+                        <p>현재는 R3,R4,R5만 지원합니다.</p></br>
+                        <p>VOC : <b>jay-.kim@samsung.com</b></p>
+                        <p>기술 관련 문의 : <b>yaah.lee@samsung.com</b></p>
+                        <p>제휴 문의 : <b>hyesun13.kim@samsung.com</b></p>
+					</div>
+				</div>
+			</div>
+		<!---- container ---->
+		<script>
+		$(document).ready(function() {
+		  $("#owl-demo2").owlCarousel({
+			items : 1,
+			lazyLoad : true,
+			autoPlay : true,
+			navigation : false,
+			navigationText :  false,
+			pagination : true
+		  });
+		});
+		</script>
+		<script>
+			//Kakao.init('5f43733c65a56ce613424193fe41a4c5');
+Kakao.init('61a80f4775fa9cc2667765b541660802');
+
+
+			Kakao.Link.createTalkLinkButton({
+			container: '#kakao-link-btn',
+			label: '디지털 시티, 먹고 살기 프로젝트 호로록!',
+			image: {
+			src: 'http://rpkim.net/hororoc/images/logo.png',
+			width: '250',
+			height: '120'
+			},
+			webButton: {
+			text: '호로록 바로가기',
+			url: 'market://details?id=com.sec.hororoc' // 앱 설정의 웹 플랫폼에 등록한 도메인의 URL이어야 합니다.
+			}
+			});
+		</script>
+
+	</body>
+</html>

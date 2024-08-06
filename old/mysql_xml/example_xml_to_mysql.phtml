@@ -1,0 +1,21 @@
+<?php
+
+$hostname = "mysql5.hosting.paran.com"; 
+$username = "rpkim";
+$password = "rpkim0514"; 
+$databasename = "rpkim_db"; 
+
+$con = mysql_connect($hostname,$username,$password);
+mysql_select_db($databasename);
+
+require("class.xml.phtml");
+require("class.mysql_xml.phtml");
+
+# Clear table only for example
+//$table = new recordset;
+//$table->exec("Delete From badstore");
+# Clear table only for example
+
+$conv = new mysql2xml;
+$conv->insertIntoMySQL("badstore.xml", "badstore");
+?>

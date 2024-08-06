@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Ramabhadra' rel='stylesheet' type='text/css'>
+	<link href="css/xxxx.css" rel="stylesheet">
+	<script src="js/processing.min.js"></script>
+	<!--<script src="js/p5.min.js"></script>-->
+	<!--<script language="javascript" type="text/javascript" src="js/sketch.js"></script>-->
+</head>
+<body>
+</body>
+</html>
+<script type="text/processing" data-processing-target="mycanvas">
+	void setup()
+	{
+	  size(screen.width, screen.height); 
+	  frameRate(50);
+	}
+    boolean isTurn = false;
+	int x = 0;	
+	int i = 0;
+	void draw(){  
+
+	  if(isTurn){
+		  x=x-1;
+		  if(x<0){
+			  isTurn = false;
+			  frameCount = 0;
+		  }
+	  } else{
+		  x=frameCount;
+	  	  if(frameCount == 255){
+			  isTurn = true;
+		  }
+	  }
+
+	  background(x);
+	  int xsize = 100-x;
+	  int margin = 20;
+  	  line(mouseX-xsize, mouseY-xsize, mouseX+xsize, mouseY+xsize);
+   	  line(mouseX+xsize, mouseY-xsize, mouseX-xsize, mouseY+xsize);
+	  font = loadFont("Ramabhadra"); 
+	  textSize(10);
+  	  text("The Creator Group",screenWidth/2-100,screenHeight/2-margin);
+	  textSize(20);
+	  text("XXXX / MEDIAART Lab",screenWidth/2-100,screenHeight/2);
+	  textSize(5);
+	  text("Coming Soon",mouseX+ 20,mouseY+2.5);
+	  //println("Hello ErrorLog!");
+	}
+	</script>
+	</head>
+	<body>
+		<canvas id="mycanvas"></canvas>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>JavascriptMap</title>
+		<link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.8.16.custom.css" />
+		<script type="text/javascript" src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0&key=8858ff298dbc779b93471373a6d67cba"></script>
+
+		<!-- rpkim 구글맵 API를 사용하기 위한 곳 -->
+		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAAjK-wIJu1tF_axbxFVVc40hS9xnad72Q6cQVWqmVej7bRLPEhOhT3VigwkvJK4v3Yltc0qXWE1ni04w" type="text/javascript"></script>
+
+		<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="jquery-ui-1.8.16.custom.min.js"></script>
+		<script type="text/javascript" src="jquery.naver.map.js"></script>
+		<script type="text/javascript" src="jquery.google.map.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var map1 = $("#map1").naverMap({
+					width: 300, height: 300
+				});
+			});
+
+		</script>
+	</head>
+	<body>
+		<div id="map1"></div>
+	</body>
+</html>
